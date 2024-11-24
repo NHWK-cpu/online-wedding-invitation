@@ -19,6 +19,7 @@ body {
   height: 100%;
   background-image: url(img/wedding.jpg);
   background-size: cover;
+  background-position: center;
   z-index: -1;
   filter: grayscale();
 }
@@ -58,6 +59,20 @@ body {
   background-color: var(--pink);
 }
 
+.mynavbar {
+}
+
+.mynavbar .navbar-brand,
+.mynavbar .offcanvas-title {
+  font-family: "Sacramento", cursive;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.mynavbar .nav-link {
+  text-transform: uppercase;
+}
+
 /* media Query */
 /* laptop */
 @media (max-width: 992px) {
@@ -73,6 +88,11 @@ body {
 @media (max-width: 768px) {
   html {
     font-size: 65%;
+  }
+
+  .mynavbar .nav-link {
+    font-size: 2rem;
+    text-align: center;
   }
 
   .simply-countdown > .simply-section {
