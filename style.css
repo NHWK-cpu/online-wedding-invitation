@@ -206,6 +206,10 @@ body {
     text-align: center;
   }
 
+  .sticky-top {
+    overflow: hidden;
+  }
+
   .simply-countdown > .simply-section {
     padding: 60px;
     margin: 5px;
